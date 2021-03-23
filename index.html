@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <title>Rick's Portfolio</title>
 </head>
 <body>
@@ -13,10 +15,10 @@
    <header class="header">
         <h1 class="name">Rick Rocero</h1>
         <nav class="nav-bar">
-            <a href="#">About Me</a>
-            <a href="#">Work</a>
-            <a href="#">Contact Me</a>
-            <a href="#">Resume</a>
+            <a href="#about-me">About Me</a>
+            <a href="#work-section">Work</a>
+            <a href="#contact-me">Contact Me</a>
+            <a href="./resume.html" target="_blank">Resume</a>
         </nav>
    </header>
    <!-- Figure -->
@@ -25,40 +27,60 @@
    </figure>
 
    <main>
-        <section class="about-me-container">
+        <section id="about-me" class="about-me-container">
             <h1 class="about-me-header">About Me</h1>
                 <p class="about-me-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reprehenderit laudantium similique non impedit dolorum accusamus ipsum beatae, ad recusandae facilis, distinctio dolorem corrupti! Nam delectus hic molestiae animi cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reprehenderit laudantium similique non impedit dolorum accusamus ipsum beatae, ad recusandae facilis, distinctio dolorem corrupti! Nam delectus hic molestiae animi cumque!
                 <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reprehenderit laudantium similique non impedit dolorum accusamus ipsum beatae, ad recusandae facilis, distinctio dolorem corrupti! Nam delectus hic molestiae animi cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reprehenderit laudantium similique non impedit dolorum accusamus ipsum beatae, ad recusandae facilis, distinctio dolorem corrupti! Nam delectus hic molestiae animi cumque!</p>
         </section>
 
-        <div class="work-container">
+        <div id="work-section" class="work-container">
             <h1 class="work-header">Work</h1>
             <div class="card-container">
                 <section class="card card-1">
-                    <h3>Surf Report</h3>
-                    <p>MERN Stack</p>
+                    <a href="./portfolio-links/app1.html" target="_blank">
+                        <div class="card-header-1">
+                            <h3>Surf Report</h3>
+                            <p>MERN Stack</p>
+                        </div>
+                    </a>
                 </section>   
                 <section class="card card-2">
-                    <h3>LED Wall</h3>
-                    <p>Node/IoT</p>
+                    <a href="/portfolio-links/app2.html" target="_blank">
+                        <div class="card-header-2">
+                            <h3>LED Wall</h3>
+                            <p>Node/IoT</p>
+                        </div>
+                    </a>
                 </section>  
                 <section class="card card-3">
-                    <h3>Calculator</h3>
-                    <p>React/JavaScript/CSS</p>
+                    <a href="./portfolio-links/app3.html" target="_blank">
+                        <div class="card-header-3">
+                            <h3>Calculator</h3>
+                            <p>React/JavaScript/CSS</p>
+                        </div>
+                    </a>
                 </section>  
                 <section class="card card-4">
-                    <h3>Pastel Puzzles</h3>
-                    <p>MERN Stack</p>
+                    <a href="./portfolio-links/app4.html" target="_blank">
+                        <div class="card-header-4">
+                            <h3>Pastel Puzzles</h3>
+                            <p>MERN Stack</p>
+                        </div>
+                    </a>
                 </section>  
                 <section class="card card-5">
-                    <h3>Run Buddy</h3>
-                    <p>HTML/CSS</p>
+                    <a href="./portfolio-links/app5.html" target="_blank">
+                        <div class="card-header-5">
+                            <h3>Run Buddy</h3>
+                            <p>HTML/CSS</p>
+                        </div>
+                    </a>
                 </section>  
             </div>
         </div>
    </main>
    <!-- Footer -->
-   <footer class="footer">
+   <footer id="contact-me" class="footer">
         <h1 class="footer-title">Contact Me</h1>
         <ul class="footer-bar">
             <a href="#">360.724.8730</a>

@@ -1,3 +1,7 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 body {
     min-height: 100vh;
 }
@@ -23,14 +27,18 @@ footer {
 .header {
     display: flex;
     justify-content: space-between;
-    border: 5px dashed red; 
     align-items: center;
-    background-color: cornflowerblue;
-    color: white;
+    background-color: #06224A;
+    color: #06224A;
 }
 
 .name {
-    background-color: darkblue;
+    display: flex;
+    justify-content: flex-end;
+    width: 272px;
+    border-radius: 0px 5px 5px 0px;
+    padding-inline-end: 16px;
+    background-color: #BDF1F6;
 }
 
 .nav-bar {
@@ -40,6 +48,7 @@ footer {
 nav a {
     padding: 20px 20px;
     text-decoration: none;
+    color: #EEEEEE;
 }
 
 .top-figure {
@@ -58,8 +67,9 @@ nav a {
     display: flex;
     justify-content: flex-end;
     padding: 35px;
-    border-inline-end: 5px solid red;
+    border-inline-end: 5px solid #06224A;
     width: 20%;
+    color: #06224A;
 }
 
 .about-me-text {
@@ -78,9 +88,10 @@ nav a {
     width: 20%;
     padding: 7px;
     padding-inline-end: 35px;
-    border-inline-end: 5px solid red;
+    border-inline-end: 5px solid #06224A;
     position: relative;
     left: 37px;
+    color: #06224A;
 }
 
 .card-container {
@@ -94,11 +105,85 @@ nav a {
 
 .card {
     margin: 10px;
-    border: 3px solid green;
+    border: 4px solid #0245A3;
     background-image: url("http://placekitten.com/200/300");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
+}
+
+.card a {
+    text-decoration-line: none;
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 20px #0245A3;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-header-1 {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 115px;
+    color: #EEEEEE;
+    background-color: #0245A3;
+    position: relative;
+    top: 224px;
+    left: -3px;
+    padding: 4px;
+}
+.card-header-2 {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100px;
+    color: #EEEEEE;
+    background-color: #0245A3;
+    position: relative;
+    top: 5px;
+    left: -3px;
+    padding: 4px;
+}
+
+.card-header-3 {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 173px;
+    color: #EEEEEE;
+    background-color: #0245A3;
+    position: relative;
+    top: 5px;
+    left: -3px;
+    padding: 4px;
+}
+
+.card-header-4 {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 140px;
+    color: #EEEEEE;
+    background-color: #0245A3;
+    position: relative;
+    top: 5px;
+    left: -3px;
+    padding: 4px;
+}
+
+.card-header-5 {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 115px;
+    color: #EEEEEE;
+    background-color: #0245A3;
+    position: relative;
+    top: 5px;
+    left: -3px;
+    padding: 4px;
 }
 
 .card-1 {
@@ -137,10 +222,11 @@ nav a {
     align-items: center;
     justify-content: flex-end;
     width: 20%;
-    border-inline-end: 5px solid red;
+    border-inline-end: 5px solid #06224A;
     position: relative;
-    right: -35px;
+    right: -36px;
     padding-inline-end: 31px;
+    color: #06224A;
 }
 
 .footer-bar {
@@ -153,4 +239,7 @@ nav a {
 .footer-bar a {
     padding: 20px 20px;
     text-decoration: none;
+    color: #0245A3;
+    border-bottom: 3px solid #06224A;
+    padding-bottom: 4px;
 }
