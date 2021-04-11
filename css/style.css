@@ -113,7 +113,6 @@ nav a {
 .card {
     margin: 10px;
     border: 4px solid #0245A3;
-    background-image: url("http://placekitten.com/800/300");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -200,26 +199,31 @@ nav a {
 .card-1 {
     width: 81.5%;
     height: 300px;
+    background-image: url("../images/Screenshot\ \(18\).png");
 }
 
 .card-2 {
     width: 40%;
     height: 115px;
+    background-image: url("http://placekitten.com/800/300");
 }
 
 .card-3 {
     width: 40%;
     height: 115px;
+    background-image: url("http://placekitten.com/800/300");
 }
 
 .card-4 {
     width: 40%;
     height: 115px;
+    background-image: url("http://placekitten.com/800/300");
 }
 
 .card-5 {
     width: 40%;
     height: 115px;
+    background-image: url("http://placekitten.com/800/300");
 }
 
 .footer {
