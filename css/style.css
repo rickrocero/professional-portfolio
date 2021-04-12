@@ -116,6 +116,7 @@ nav a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
     
 }
 
@@ -144,6 +145,7 @@ nav a {
     left: -3px;
     padding: 4px;
 }
+
 .card-header-2 {
     display: flex; 
     flex-wrap: wrap;
@@ -199,8 +201,21 @@ nav a {
 .card-1 {
     width: 81.5%;
     height: 300px;
-    background-image: url("../images/Screenshot\ \(18\).png");
+    
 }
+
+.card-1::before {
+    content: "";
+    background-image: url("../images/Screenshot\ \(18\).png");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
 
 .card-2 {
     width: 40%;
