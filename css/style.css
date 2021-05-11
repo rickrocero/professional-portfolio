@@ -157,14 +157,14 @@ background-image: linear-gradient(to right, #08183A, #152852, #4B3D60,#FD5E53); 
 
 .card-header-2 {
     display: flex; 
-    flex-wrap: wrap;
-    align-items: flex-start;
-    width: 141px;
+    flex-direction: column;
+    align-items: center;
+    width: 100.5%;
     color: #EEEEEE;
     background-color: #0245A3;
-    position: relative;
-    top: 38px;
-    left: -3px;
+    position: absolute;
+    top: 31px;
+    left: -1px;
     padding: 4px;
 }
 
@@ -213,23 +213,9 @@ background-image: linear-gradient(to right, #08183A, #152852, #4B3D60,#FD5E53); 
     
 }
 
-.card-1::before {
-    content: "";
-    /* background-image: url("../images/Screenshot\ \(18\).png"); */
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.75;
-}
-
-
 .card-2 {
     width: 40%;
     height: 115px;
-    background-image: url("http://placekitten.com/800/300");
 }
 
 .card-3 {
@@ -293,12 +279,22 @@ background-image: linear-gradient(to right, #08183A, #152852, #4B3D60,#FD5E53); 
     border-radius: 189px;
 }
 
-#food-bev {
+#food-bev-img {
     height: 100%;
     width: 100%;
 }
 
-#github-link {
+#food-bev-link {
+    display: flex;
+    justify-self:right;
+}
+
+#pantrimonium-img {
+    height: 100%;
+    width: 100%;
+}
+
+#pantrimonium-link {
     display: flex;
     justify-self:right;
 }
